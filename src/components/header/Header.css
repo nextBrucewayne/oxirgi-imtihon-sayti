@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px;
+    gap: 300px;
+
+}
+
+.haeder {
+    background-image: url('../images/head1.jpg');
+}
+
+.button2 {
+    border: 1px solid;
+    border-image-source: linear-gradient(93.81deg, #FFFFFF 1.94%, rgba(255, 255, 255, 0) 104.56%);
+    background: #FFFFFF1A;
+    backdrop-filter: blur(8px)
+}
