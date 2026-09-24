@@ -1,13 +1,14 @@
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 20px 40px;
     gap: 300px;
 
 }
 
 .haeder {
+    width: 100%;
     background-image: url('../images/head1.jpg');
 }
 

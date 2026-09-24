@@ -5,7 +5,7 @@ import ins from '../images/instagram.png'
 
 const Header = () => {
     return (
-        <div className="haeder bg-cover bg-center bg-no-repeat">
+        <div className="haeder w-full min-h-screen bg-cover bg-center bg-no-repeat">
 
             <div className="navbar">
                 <span>
