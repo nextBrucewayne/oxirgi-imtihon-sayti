@@ -5,18 +5,18 @@ import rasm3 from '../images/yumaloq.png'
 import rasm4 from '../images/uchburchak.png'
 const headernitag = () => {
   return (
-    <div className='h-[1200px] bg-white'>
+    <div className='h-[1300px] bg-white'>
       <div className='justify-center w-[1081px] m-auto'
       >
         <h1 className='font-gilroy text-center text-black text-[60px]  pt-[160px]' >Crafting Your Dream Home with Precision & Care</h1>
         <p className='w-[1081px] text-black text-center text-[20px] mt-[16px]'>Renovating your home should be seamless and inspiring. At ICal Construction, we simplify the remodeling journey with our expert design-build approach. From concept to completion, our skilled team ensures every detail is handled with precision and care. With decades of experience, we specialize in creating stunning kitchens, luxurious bathrooms, and elegant home transformations. Let’s bring your vision to life—stress-free and beautifully executed.</p>
       </div>
 
-      <div className="rasmuchun ">
+      <div className="rasmuchun relative w-[1280px] m-auto">
 
-        <img className='w-[1280px] m-auto mt-[87px] ' src={ikkinchi} alt="" />
-        <img src={rasm3} alt="" />
-        <img src={rasm4} alt="" />
+        <img className='w-[1280px] mt-[87px] ' src={ikkinchi} alt="" />
+        <img className='absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[200px] h-[200px] ' src={rasm3} alt="" />
+        <img className='absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 pl-[10px] ' src={rasm4} alt="" />
       </div>
 
 
