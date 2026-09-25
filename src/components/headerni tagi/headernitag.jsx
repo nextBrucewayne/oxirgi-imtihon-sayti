@@ -5,7 +5,7 @@ import rasm3 from '../images/yumaloq.png'
 import rasm4 from '../images/uchburchak.png'
 const headernitag = () => {
   return (
-    <div className='h-[1300px] bg-white'>
+    <div className='w-full h-[1300px] bg-white'>
       <div className='justify-center w-[1081px] m-auto'
       >
         <h1 className='font-gilroy text-center text-black text-[60px]  pt-[160px]' >Crafting Your Dream Home with Precision & Care</h1>
