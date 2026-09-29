@@ -11,9 +11,9 @@ const Navbar = () => {
                 <img className='w-[100px] h-auto' src={rasm1} alt="" />
             </span>
             <ul className='flex items-center justify-center gap-[10px]'>
-                <li><Link className='text-[11px]' to="/">HOME</Link></li>
+                <li><Link className='text-[11px]' to="/app">HOME</Link></li>
                 <li><a className='text-[11px]' href="#">SERVICES</a></li>
-                <li><a className='text-[11px]' href="#">KITCHEN SHOWROOM</a></li>
+                <li><Link className='text-[11px]' to="/Projects">KITCHEN SHOWROOM</Link></li>
                 <li><Link className='text-[11px]' to="/Projects">GALLERY</Link></li>
                 <li><a className='text-[11px]' href="#">TESTIMONIALS</a></li>
                 <li><a className='text-[11px]' href="#">TRADES</a></li>
