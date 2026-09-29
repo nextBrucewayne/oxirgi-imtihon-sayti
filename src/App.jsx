@@ -7,6 +7,8 @@ import Rasm2tali from './components/rasm2tali/Rasm2tali'
 import Footertepasi from './components/footertepasi/Footertepasi'
 import Footer from './components/footer/Footer'
 import projects from './pages/projects.jsx'
+import { Routes, Route } from 'react-router-dom';
+
 export const App = () => {
   return (
     <div className='container w-full m-auto'>
@@ -19,6 +21,10 @@ export const App = () => {
         <Rasm2tali />
         <Footertepasi />
         <Footer />
+        <Routes>
+          <Route path='/projects' element={<projects />} />
+        </Routes>
+
       </div>
     </div>
   )

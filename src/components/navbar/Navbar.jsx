@@ -3,6 +3,7 @@ import "./Navbar.css"
 import rasm1 from '../images/logo.png'
 import ins from '../images/instagram.png'
 import { Link } from 'react-router-dom'
+import Projects from '../../pages/projects'
 
 const Navbar = () => {
     return (
@@ -13,7 +14,7 @@ const Navbar = () => {
             <ul className='flex items-center justify-center gap-[10px]'>
                 <li><Link className='text-[11px]' to="/app">HOME</Link></li>
                 <li><a className='text-[11px]' href="#">SERVICES</a></li>
-                <li><Link className='text-[11px]' to="/Projects">KITCHEN SHOWROOM</Link></li>
+                <li><Link className='text-[11px]' to="/projects">KITCHEN SHOWROOM</Link></li>
                 <li><Link className='text-[11px]' to="/Projects">GALLERY</Link></li>
                 <li><a className='text-[11px]' href="#">TESTIMONIALS</a></li>
                 <li><a className='text-[11px]' href="#">TRADES</a></li>
